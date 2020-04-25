@@ -1,3 +1,3 @@
 # Nonprofit Site
-A Simple Nonprofit website 
-# Demo
+My Simple Nonprofit Website Project
+# Final Demo
