@@ -5,180 +5,59 @@
   <link rel="stylesheet" type="text/css" href="style.css">
   <script src="main.js"></script>
   <title>  </title>
-</head>
-        </a></h1>
-        <nav class="top-navigation" role="navigation">
-            <ul class="inline-list padded-list">
-                    <li><a href="#" class="icon ion-university">Learn</a></li>
-                    <li><a href="#" class="icon ion-chatbubbles">Chat</a></li>
-                    <li><a href="#" class="icon ion-paper-airplane">News</a></li>
-                    <li><a href="#" class="icon ion-edit">Wiki</a></li>
-                    <li><a href="#login" class="icon ion-android-exit button button-red button-login toggle-hide">Sign In</a></li>
-            </ul>
-        </nav>
-    </div>
 
-    <div class="header-image">
-        <div class="header-image-text">
-            <h2 class="header-title">Code with Us</h2>
-            <p class="header-description">Learn to code by building projects for nonprofits</p>
-            <a class="button button-yellow" href="#">Start learning to code (it's free!)</a>
-            <a class="button button-blue" href="#"> My nonprofit needs coding help </a>
-        </div>
+  <div id="popup" class="popup1">
+    <div>
+      <a href="#" class="button-close" onclick="hide_popup('popup');">X</a>
     </div>
+    <div class="text">THIS IS A POPUP! </br></br>This box is to notify you that this webpage is a remake of freeCodeCamps's site :)
+    </div>
+    <div class="pic1">
+      <img alt="alert" style="height: 180px;" img src="samplealert.png">
+    </div>
+  </div>
+  <a class="button" href="#" onclick="show_popup('popup');">Reveal</a>
 
+<nav class="mastnav">
+<a target="_blank" href="https://freecodecamp.com" class="mastnav__brand">
+<img src="https://avatars2.githubusercontent.com/u/9892522?v=3&s=400" alt="Freecodecamp's logo">
+</a>
+<a href="javascript:void(0)" class="mastnav__item">Home</a>
+<a href="#about" class="mastnav__item">About</a>
+<a href="#join" class="mastnav__item">Join</a>
+</nav>
+<header class="masthead">
+<h1>Coders Unite</h1>
+<h2><i class="fa fa-book"></i> Learn.</h2>
+<h2><i class="fa fa-code"></i> Build.</h2>
+<h2><i class="fa fa-handshake-o"></i> Contribute.</h2>
+<a href="javascript:void(0)" class="masthead__action">
+<i class="fa fa-coffee"></i> Give a cup of coffee.
+</a>
 </header>
-
-<main role="main" class="site-main">
-    <section class="fixed-width highlighted-bg">
-        <h2>How it Works</h2>
-
-        <div class="col fourth">
-            <h3>Get Connected</h3>
-            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/197359/landingIcons_connect.svg" alt="" class="landing-icon">
-            <p>Join a community of busy, motivated people.</p>
-        </div>
-
-        <div class="col fourth">
-            <h3>Learn JavaScript</h3>
-            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/197359/landingIcons_learn.svg" alt="" class="landing-icon">
-            <p>Work together on JavaScript coding challenges.</p>
-        </div>
-
-        <div class="col fourth">
-            <h3>Build your Portfolio</h3>
-            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/197359/landingIcons_portfolio.svg" alt="" class="landing-icon">
-            <p>Build apps that solve real problems for real people.</p>
-        </div>
-
-        <div class="col fourth">
-            <h3>Help Nonprofits</h3>
-            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/197359/landingIcons_nonprofits.svg" alt="" class="landing-icon">
-            <p>Give nonprofits a boost by empowering them with code.</p>
-        </div>
-    </section>
-
-    <section class="fixed-width">
-        <h2>Skills You'll Learn</h2>
-
-        <div class="col fourth highlighted-bg small-box">
-            <h3>HTML5</h3>
-            <div class="icon icon-large ion-social-html5"></div>
-        </div>
-
-        <div class="col fourth highlighted-bg small-box">
-            <h3>CSS3</h3>
-            <div class="icon icon-large ion-social-css3"></div>
-        </div>
-
-        <div class="col fourth highlighted-bg small-box">
-            <h3>JavaScript</h3>
-            <div class="icon icon-large ion-social-javascript"></div>
-        </div>
-
-        <div class="col fourth highlighted-bg small-box">
-            <h3>Databases</h3>
-            <div class="icon icon-large ion-stats-bars"></div>
-        </div>
-
-
-        <div class="col fourth highlighted-bg small-box">
-            <h3>Git</h3>
-            <div class="icon icon-large ion-social-github"></div>
-        </div>
-
-        <div class="col fourth highlighted-bg small-box">
-            <h3>Node.js</h3>
-            <div class="icon icon-large ion-social-nodejs"></div>
-        </div>
-
-        <div class="col fourth highlighted-bg small-box">
-            <h3>Angular.js</h3>
-            <div class="icon icon-large ion-social-angular"></div>
-        </div>
-
-        <div class="col fourth highlighted-bg small-box">
-            <h3>Agile</h3>
-            <div class="icon icon-large ion-ios-loop-strong"></div>
-        </div>
-
-    </section>
-
-    <section class="fixed-width highlighted-bg">
-        <h2>Testimonials</h2>
-
-        <div class="col third">
-            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/197359/testimonial-jen.jpg" alt="" class="landing-icon testimonial-avatar">
-            <p>Clean Code is getting me back on track and I'm committing to a new career soon!
-                - <a href="https://twitter.com/jenbestyoga"> @CaseyRiley </a></p>
-        </div>
-
-        <div class="col third">
-            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/197359/testimonial-tate.jpg" alt="" class="landing-icon testimonial-avatar">
-            <p>Just built my own website with skills I've learned from Clean Code!
-            - <a href="https://twitter.com/TateThurston"> @JohnSmith </a></p>
-        </div>
-
-        <div class="col third">
-            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/197359/testimonial-cynthia.jpg" alt="" class="landing-icon testimonial-avatar">
-            <p>Currently working through Clean Code to improve my JavaScript. The community is so welcoming!
-                - <a href="https://twitter.com/cynthialanel"> @JaneDoe </a>
-            </p>
-        </div>
-
-    </section>
-
-    <section class="fixed-width">
-        <h2>Why you should join our open source community:</h2>
-
-        <ul class="large-list">
-            <li class="icon ion-code">Get help in real time from our community chat rooms.</li>
-            <li class="icon ion-code">Work through our focused, interactive courses.</li>
-            <li class="icon ion-code">Learn state-of-the-art <strong>full stack JavaScript</strong> technologies.</li>
-            <li class="icon ion-code">Build projects that help nonprofits carry out their missions more effectively.</li>
-        </ul>
-        <a href="" class="button button-yellow">Learn to code today</a>
-    </section>
-
+<main>
+<section id="about">
+<h3>About</h3>
+<p>
+Coders Unite (also referred to as “Free Code Camp”) is a nonprofit organization that consists of an interactive learning web platform, an online community forum, chat rooms, Medium publications, and local organizations that intend to make learning web
+development accessible to anyone.
+</p>
+</section>
+<section id="join">
+<h3>Reasons to join</h3>
+<ul>
+<li> <span class="fa fa-code"> </span>  You'll get help in real time from the community chat rooms.</li>
+<li><span class="fa fa-code"> </span>  You'll meet up with other coders in your city.</li>
+<li><span class="fa fa-code"> </span>  You'll learn to code at your own pace, in your browser or on your phone.</li>
+<li><span class="fa fa-code"> </span>  You'll work through the focused, interactive courses and tutorials.</li>
+<li><span class="fa fa-code"> </span>  You'll learn state-of-the-art full stack JavaScript technologies.</li>
+<li> <span class="fa fa-code"> </span>  You'll build projects that help nonprofits carry out their missions more effectively.</li>
+<li><span class="fa fa-code"> </span>  You'll assemble a portfolio of real apps used by real people.</li>
+</ul>
+</section>
 </main>
-
-<footer class="site-footer" role="contentinfo">
-    <ul class="inline-list">
-        <li><a href="" class="icon ion-social-github">Github</a></li>
-        <li><a href="" class="icon ion-social-linkedin">LinkedIn</a></li>
-        <li><a href="" class="icon ion-social-facebook">Facebook</a></li>
-        <li><a href="" class="icon ion-social-twitter">Twitter</a></li>
-        <li><a href="" class="icon ion-locked">Privacy</a></li>
-    </ul>
+<footer>
+<a href="https://freecodecamp.com" target="_blank">
+<i class="fa fa-hand-o-right"></i> Join now to improve your skillset.
+</a>
 </footer>
-<!-- Login -->
-<div id="modal-bg" class="login-modal-bg toggle-hide"></div>
-<div id="login" class="login-container">
-    <div class="col half">
-        <h3>Sign in with email</h3>
-        <form>
-            <div class="input-group">
-                <input id="email" type="email" placeholder="Email">
-                <label class="icon-label" for="email"><i class="icon ion-email"></i></label>
-            </div>
-
-            <div class="input-group">
-                <input id="password" type="password" placeholder="Password">
-                <label class="icon-label" for="password"><i class="icon ion-key"></i></label>
-            </div>
-
-            <input type="submit" value="Sign In" class="button button-red full-width">
-
-            <p class="small"><a href="#">Forgot your password?</a>
-            <br><a href="#">Sign up using your email address</a></p>
-        </form>
-    </div>
-    <div class="col half highlighted-bg">
-        <button class="button full-width button-twitter"><i class="icon ion-social-twitter"></i>Sign in with Twitter</button>
-        <button class="button full-width button-github"><i class="icon ion-social-github"></i>Sign in with Github</button>
-        <button class="button full-width button-facebook"><i class="icon ion-social-facebook"></i>Sign in with Facebook</button>
-        <button class="button full-width button-google"><i class="icon ion-social-google"></i>Sign in with Google</button>
-        <button class="button full-width button-linkedin"><i class="icon ion-social-linkedin"></i>Sign in with LinkedIn</button>
-    </div>
-    <button class="button button-red close-button toggle-hide"><i class="icon ion-close-circled"></i> Close</button>
-</div>

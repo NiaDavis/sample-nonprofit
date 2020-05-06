@@ -1,16 +1,18 @@
-var buttonsHide = document.querySelectorAll('.toggle-hide'),
-    buttonsArray = [].slice.call(buttonsHide),
-    modal = document.getElementById('login'),
-    modalBg = document.getElementById('modal-bg');
-
-function toggleModal(){
-    modal.classList.toggle('unhide');
-    modalBg.classList.toggle('unhide');
+//function hides popup.
+function hide_popup(id) {
+	if (document.getElementById){
+		obj = document.getElementById(id);
+		if (obj.style.display == ""){
+			obj.style.display = "none";
+		}
+	}
 }
-
-buttonsArray.forEach(function (el){
-    el.addEventListener('click', function(ev){
-        ev.preventDefault();
-        toggleModal();
-    });
-});
+//function shows popup.
+function show_popup(id) {
+	if (document.getElementById){
+		obj = document.getElementById(id);
+		if (obj.style.display == "none") {
+			obj.style.display = "";
+		}
+	}
+}
